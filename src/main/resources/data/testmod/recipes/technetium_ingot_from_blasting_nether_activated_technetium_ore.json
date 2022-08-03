@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "technetium_ingot",
+  "ingredient": {
+    "item": "testmod:nether_activated_technetium_ore"
+  },
+  "result": "testmod:activated_technetium_ingot"
+}

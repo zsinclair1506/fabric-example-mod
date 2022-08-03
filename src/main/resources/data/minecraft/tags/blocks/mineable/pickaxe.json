@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:chromium_ore",
+    "testmod:chromium_block",
+    "testmod:deepslate_chromium_ore",
+    "testmod:raw_chromium_block",
+    "testmod:deepslate_technetium_ore",
+    "testmod:nether_technetium_ore",
+    "testmod:nether_activated_technetium_ore",
+    "testmod:technetium_block",
+    "testmod:lean_block"
+  ]
+}

@@ -12,32 +12,30 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-//TODO add smelting recipes for technetium ores and chromium ores
-
 public class ModBlocks {
     public static final Block RAW_CHROMIUM_BLOCK = registerBlock("raw_chromium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block CHROMIUM_BLOCK = registerBlock("chromium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block CHROMIUM_ORE = registerBlock("chromium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block DEEPSLATE_CHROMIUM_ORE = registerBlock("deepslate_chromium_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block TECHNETIUM_BLOCK = registerBlock("technetium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block NETHER_TECHNETIUM_ORE = registerBlock("nether_technetium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block NETHER_ACTIVATED_TECHNETIUM_ORE = registerBlock("nether_activated_technetium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block DEEPSLATE_TECHNETIUM_ORE = registerBlock("deepslate_technetium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block LEAN_BLOCK = registerBlock("lean_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(1f,100f).requiresTool()),
