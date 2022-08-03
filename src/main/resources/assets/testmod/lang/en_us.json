@@ -1,0 +1,16 @@
+{
+  "item.testmod.raw_chromium": "Raw Chromium",
+  "block.testmod.raw_chromium_block": "Block of Raw Chromium",
+  "item.testmod.chromium_ingot": "Chromium Ingot",
+  "block.testmod.chromium_block": "Block of Chromium",
+  "block.testmod.chromium_ore": "Chromium Ore",
+  "block.testmod.deepslate_chromium_ore": "Deepslate Chromium Ore",
+  "item.testmod.technetium_ingot": "Technetium Ingot",
+  "item.testmod.activated_technetium_ingot": "Activated Technetium Ingot",
+  "block.testmod.technetium_block": "Block of Technetium",
+  "block.testmod.deepslate_technetium_ore": "Deepslate Technetium Ore",
+  "block.testmod.nether_technetium_ore": "Nether Technetium Ore",
+  "block.testmod.nether_activated_technetium_ore": "Nether Activated Technetium Ore",
+  "itemGroup.testmod.lynxzz_addons": "Lynxzz\' Addons",
+  "block.testmod.lean_block": "Block of Lean"
+}
