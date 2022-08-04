@@ -13,9 +13,9 @@ public class TestMod implements ModInitializer {
 
 	/*
 	* TODO:
-	* Add Meth
-	* Add lean drink and liquid
-	* 
+	* Add Meth recipe, textures
+	* Add lean drink recipe, textures
+	*
 	 */
 
 	@Override

@@ -14,8 +14,15 @@
   "itemGroup.testmod.lynxzz_addons": "Lynxzz\' Addons",
   "block.testmod.lean_block": "Block of Lean",
   "block.testmod.regen_pedestal": "Regeneration Pedestal",
+  "tooltip.testmod.regen_pedestal": "A pedestal that gives the player regeneration when stood upon, similar to that of a beacon",
   "block.testmod.perfect_regen_pedestal": "Perfect Regeneration Pedestal",
+  "tooltip.testmod.perfect_regen_pedestal": "A refined version of the Regeneration Pedestal, with much stronger abilities",
   "item.testmod.crystalline_methanol": "Crystalline Methanol",
   "block.testmod.crystalline_methanol_ore": "Crystalline Methanol Ore",
-  "block.testmod.deepslate_crystalline_methanol_ore": "Deepslate Crystalline Methanol Ore"
+  "block.testmod.deepslate_crystalline_methanol_ore": "Deepslate Crystalline Methanol Ore",
+  "item.testmod.lean_bottle": "Bottle of §5Lean§r",
+  "item.testmod.lean_bottle.tooltip": "Press §eSHIFT§r for more Information",
+  "item.testmod.lean_bottle.tooltip.shift": "I. LOVE. §5LEAN!!!!!!!!!!!!!!!!!!§r",
+  "item.testmod.crystal_meth": "Crystal Meth",
+  "item.testmod.ritalin": "Ritalin"
 }

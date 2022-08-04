@@ -22,8 +22,8 @@ public class LeanBlock extends Block {
                 livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 300, 2));
                 livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 300,1));
                 livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 300));
-                livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS,300));
-                livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.UNLUCK, 6000));
+                livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS,300,2));
+                livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.UNLUCK, 6000,2));
             }
         }
 

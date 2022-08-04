@@ -23,9 +23,19 @@ public class ModItems {
     public static final Item CRYSTALLINE_METHANOL = registerItem("crystalline_methanol",
             new Item(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
 
+    public static final Item LEAN_BOTTLE = registerItem("lean_bottle",
+            new LeanBottleItem(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS).food(ModFoodComponents.LEAN_BOTTLE)));
+
+    public static final Item CRYSTAL_METH = registerItem("crystal_meth",
+            new Item(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS).food(ModFoodComponents.CRYSTAL_METH)));
+
+    public static final Item RITALIN = registerItem("ritalin",
+            new Item(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS).food(ModFoodComponents.RITALIN)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
     }
+
 
     public static void registerModItems(){
         TestMod.LOGGER.info("Registering Mod Items for " + TestMod.MOD_ID);

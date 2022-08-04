@@ -9,11 +9,18 @@ import net.lynxzz.testmod.block.custom.RegenBlock;
 import net.lynxzz.testmod.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ModBlocks {
     public static final Block RAW_CHROMIUM_BLOCK = registerBlock("raw_chromium_block",
@@ -45,10 +52,12 @@ public class ModBlocks {
             ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block REGEN_PEDESTAL = registerBlock("regen_pedestal",
-            new RegenBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new RegenBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS,
+            "tooltip.testmod.regen_pedestal");
 
     public static final Block PERFECT_REGEN_PEDESTAL = registerBlock("perfect_regen_pedestal",
-            new PerfectRegenBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+            new PerfectRegenBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS,
+            "tooltip.testmod.perfect_regen_pedestal");
 
     public static final Block CRYSTALLINE_METHANOL_ORE = registerBlock("crystalline_methanol_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
@@ -56,6 +65,20 @@ public class ModBlocks {
     public static final Block DEEPSLATE_CRYSTALLINE_METHANOL_ORE = registerBlock("deepslate_crystalline_methanol_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
+    private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey){
+        registerBlockItem(name, block, group, tooltipKey);
+        return Registry.register(Registry.BLOCK, new Identifier(TestMod.MOD_ID, name), block);
+    }
+
+    private static Item registerBlockItem(String name, Block block, ItemGroup group, String tooltipKey){
+        return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings().group(group)){
+                    @Override
+                    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                        tooltip.add(Text.translatable(tooltipKey));
+                    }
+                });
+    }
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
