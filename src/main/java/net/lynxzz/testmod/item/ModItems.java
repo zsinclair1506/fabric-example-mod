@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item ACTIVATED_TECHNETIUM_INGOT = registerItem("activated_technetium_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
 
+    public static final Item CRYSTALLINE_METHANOL = registerItem("crystalline_methanol",
+            new Item(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);
     }

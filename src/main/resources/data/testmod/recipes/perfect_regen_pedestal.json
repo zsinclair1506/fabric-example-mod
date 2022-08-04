@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "item": "minecraft:golden_apple"
+    },
+    "E": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "O": {
+      "item": "minecraft:quartz_bricks"
+    },
+    "S": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "GSG",
+    "OOO"
+  ],
+  "result": {
+    "item": "testmod:perfect_regen_pedestal"
+  }
+}

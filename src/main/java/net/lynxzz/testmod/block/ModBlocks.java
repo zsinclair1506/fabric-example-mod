@@ -3,6 +3,9 @@ package net.lynxzz.testmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lynxzz.testmod.TestMod;
+import net.lynxzz.testmod.block.custom.LeanBlock;
+import net.lynxzz.testmod.block.custom.PerfectRegenBlock;
+import net.lynxzz.testmod.block.custom.RegenBlock;
 import net.lynxzz.testmod.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -38,8 +41,21 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(6.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
 
     public static final Block LEAN_BLOCK = registerBlock("lean_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(1f,100f).requiresTool()),
+            new LeanBlock(FabricBlockSettings.of(Material.METAL).strength(1f,100f).requiresTool()),
             ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block REGEN_PEDESTAL = registerBlock("regen_pedestal",
+            new RegenBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block PERFECT_REGEN_PEDESTAL = registerBlock("perfect_regen_pedestal",
+            new PerfectRegenBlock(FabricBlockSettings.of(Material.METAL).strength(8.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block CRYSTALLINE_METHANOL_ORE = registerBlock("crystalline_methanol_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block DEEPSLATE_CRYSTALLINE_METHANOL_ORE = registerBlock("deepslate_crystalline_methanol_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

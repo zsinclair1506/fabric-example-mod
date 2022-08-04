@@ -9,6 +9,10 @@
     "testmod:nether_technetium_ore",
     "testmod:nether_activated_technetium_ore",
     "testmod:technetium_block",
-    "testmod:lean_block"
+    "testmod:lean_block",
+    "testmod:regen_pedestal",
+    "testmod:perfect_regen_pedestal",
+    "testmod:crystalline_methanol_ore",
+    "testmod:deepslate_crystalline_methanol_ore"
   ]
 }

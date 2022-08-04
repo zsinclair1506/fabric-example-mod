@@ -12,5 +12,10 @@
   "block.testmod.nether_technetium_ore": "Nether Technetium Ore",
   "block.testmod.nether_activated_technetium_ore": "Nether Activated Technetium Ore",
   "itemGroup.testmod.lynxzz_addons": "Lynxzz\' Addons",
-  "block.testmod.lean_block": "Block of Lean"
+  "block.testmod.lean_block": "Block of Lean",
+  "block.testmod.regen_pedestal": "Regeneration Pedestal",
+  "block.testmod.perfect_regen_pedestal": "Perfect Regeneration Pedestal",
+  "item.testmod.crystalline_methanol": "Crystalline Methanol",
+  "block.testmod.crystalline_methanol_ore": "Crystalline Methanol Ore",
+  "block.testmod.deepslate_crystalline_methanol_ore": "Deepslate Crystalline Methanol Ore"
 }

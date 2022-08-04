@@ -4,6 +4,8 @@
     "testmod:technetium_block",
     "testmod:deepslate_technetium_ore",
     "testmod:nether_technetium_ore",
-    "testmod:nether_activated_technetium_ore"
+    "testmod:nether_activated_technetium_ore",
+    "testmod:regen_pedestal",
+    "testmod:perfect_regen_pedestal"
   ]
 }

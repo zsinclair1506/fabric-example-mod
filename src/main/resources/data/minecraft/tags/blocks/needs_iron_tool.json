@@ -5,6 +5,8 @@
     "testmod:raw_chromium_block",
     "testmod:chromium_ore",
     "testmod:deepslate_chromium_ore",
-    "testmod:lean_block"
+    "testmod:lean_block",
+    "testmod:crystalline_methanol_ore",
+    "testmod:deepslate_crystalline_methanol_ore"
   ]
 }

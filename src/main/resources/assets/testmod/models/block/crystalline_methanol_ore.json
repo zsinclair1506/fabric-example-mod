@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "testmod:block/crystalline_methanol_ore"
+  }
+}
