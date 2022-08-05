@@ -13,8 +13,11 @@ public class TestMod implements ModInitializer {
 
 	/*
 	* TODO:
-	* Add Meth recipe, textures
-	* Add lean drink recipe, textures
+	* Lean Recipe
+	* Alloying
+	* Chromium Alloy Texture
+	* Technetium and Chromium Alloy Tools
+	* Golden Rod, texture and recipe, for chromium tools
 	*
 	 */
 

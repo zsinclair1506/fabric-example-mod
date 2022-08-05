@@ -1,4 +1,4 @@
-package net.lynxzz.testmod.item;
+package net.lynxzz.testmod.item.custom;
 
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.gui.screen.Screen;

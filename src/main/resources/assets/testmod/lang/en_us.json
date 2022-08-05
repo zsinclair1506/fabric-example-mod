@@ -24,5 +24,12 @@
   "item.testmod.lean_bottle.tooltip": "Press §eSHIFT§r for more Information",
   "item.testmod.lean_bottle.tooltip.shift": "I. LOVE. §5LEAN!!!!!!!!!!!!!!!!!!§r",
   "item.testmod.crystal_meth": "Crystal Meth",
-  "item.testmod.ritalin": "Ritalin"
+  "item.testmod.ritalin": "Ritalin",
+  "item.testmod.chromium_sword": "Chromium Sword",
+  "item.testmod.chromium_axe": "Chromium Axe",
+  "item.testmod.chromium_shovel": "Chromium Shovel",
+  "item.testmod.chromium_hoe": "Chromium Hoe",
+  "item.testmod.chromium_pickaxe": "Chromium Pickaxe",
+  "item.testmod.chromium_alloy_ingot": "Chromium Alloy Ingot"
+
 }
