@@ -3,6 +3,9 @@ package net.lynxzz.testmod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.lynxzz.testmod.TestMod;
 import net.lynxzz.testmod.item.custom.*;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.ai.brain.task.FarmerVillagerTask;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
@@ -56,7 +59,63 @@ public class ModItems {
             new ModPickaxeItem(ModToolMaterials.CHROMIUM, 2,-2.8f ,
                     new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
 
+    public static final Item ACTIVATED_TECHNETIUM_SWORD = registerItem("activated_technetium_sword",
+            new ModSlownessSwordItem(ModToolMaterials.ACTIVATED_TECHNETIUM, 3,-2.2f,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
 
+    public static final Item ACTIVATED_TECHNETIUM_AXE = registerItem("activated_technetium_axe",
+            new ModHasteAxeItem(ModToolMaterials.ACTIVATED_TECHNETIUM, 5, -3.0f,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_SHOVEL = registerItem("activated_technetium_shovel",
+            new ModShovelItem(ModToolMaterials.ACTIVATED_TECHNETIUM, 1, -3.0f,
+                new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_HOE = registerItem("activated_technetium_hoe",
+            new ModHoeItem(ModToolMaterials.ACTIVATED_TECHNETIUM, (int) -5.5, 0.0f,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_PICKAXE = registerItem("activated_technetium_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.ACTIVATED_TECHNETIUM, 1, -2.8f,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item REINFORCED_ROD = registerItem("reinforced_rod",
+            new Item (new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item TECHNETIUM_WEAPON_FRAME = registerItem("technetium_weapon_frame",
+            new Item(new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item CHROMIUM_HELMET = registerItem("chromium_helmet",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item CHROMIUM_CHESTPLATE = registerItem("chromium_chestplate",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item CHROMIUM_LEGGINGS = registerItem("chromium_leggings",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item CHROMIUM_BOOTS = registerItem("chromium_boots",
+            new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_HELMET = registerItem("activated_technetium_helmet",
+            new ModArmorItem(ModArmorMaterials.ACTIVATED_TECHNETIUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_CHESTPLATE = registerItem("activated_technetium_chestplate",
+            new ArmorItem(ModArmorMaterials.ACTIVATED_TECHNETIUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_LEGGINGS = registerItem("activated_technetium_leggings",
+            new ArmorItem(ModArmorMaterials.ACTIVATED_TECHNETIUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
+
+    public static final Item ACTIVATED_TECHNETIUM_BOOTS = registerItem("activated_technetium_boots",
+            new ArmorItem(ModArmorMaterials.ACTIVATED_TECHNETIUM, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.LYNXZZS_ADDONS)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);

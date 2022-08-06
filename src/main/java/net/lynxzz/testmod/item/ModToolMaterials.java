@@ -14,7 +14,7 @@ public enum ModToolMaterials implements ToolMaterial {
     CHROMIUM_ALLOY(3, 1536, 8.25F, 2.5F, 19, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.CHROMIUM_ALLOY_INGOT});
     }),
-    TECHNETIUM(4, 4096, 12.0F, 5.0F, 30, () -> {
+    ACTIVATED_TECHNETIUM(4, 4096, 12.0F, 5.0F, 30, () -> {
         return Ingredient.ofItems(new ItemConvertible[]{ModItems.ACTIVATED_TECHNETIUM_INGOT});
     });
 

@@ -30,6 +30,20 @@
   "item.testmod.chromium_shovel": "Chromium Shovel",
   "item.testmod.chromium_hoe": "Chromium Hoe",
   "item.testmod.chromium_pickaxe": "Chromium Pickaxe",
-  "item.testmod.chromium_alloy_ingot": "Chromium Alloy Ingot"
-
+  "item.testmod.chromium_alloy_ingot": "Chromium Alloy Ingot",
+  "item.testmod.activated_technetium_hoe": "§5Activated Technetium Hoe§r",
+  "item.testmod.activated_technetium_axe": "§5Activated Technetium Axe§r",
+  "item.testmod.activated_technetium_pickaxe": "§5Activated Technetium Pickaxe§r",
+  "item.testmod.activated_technetium_shovel": "§5Activated Technetium Shovel§r",
+  "item.testmod.activated_technetium_sword": "§5Activated Technetium Sword§r",
+  "item.testmod.reinforced_rod": "Reinforced Rod",
+  "item.testmod.technetium_weapon_frame": "§5Technetium Weapon Frame§r",
+  "item.testmod.chromium_helmet": "Chromium Helmet",
+  "item.testmod.chromium_chestplate": "Chromium Chestplate",
+  "item.testmod.chromium_leggings": "Chromium Leggings",
+  "item.testmod.chromium_boots": "Chromium Boots",
+  "item.testmod.activated_technetium_helmet": "§5Activated Technetium Helmet§r",
+  "item.testmod.activated_technetium_chestplate": "§5Activated Technetium Chestplate§r",
+  "item.testmod.activated_technetium_leggings": "§5Activated Technetium Leggings§r",
+  "item.testmod.activated_technetium_boots": "§5Activated Technetium Boots§r"
 }

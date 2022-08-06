@@ -14,10 +14,12 @@ public class TestMod implements ModInitializer {
 	/*
 	* TODO:
 	* Lean Recipe
+	* Recipe for Technetium Tools
+	* Effects for technetium tools
 	* Alloying
 	* Chromium Alloy Texture
-	* Technetium and Chromium Alloy Tools
-	* Golden Rod, texture and recipe, for chromium tools
+	* Chromium Alloy Tools
+	*
 	*
 	 */
 

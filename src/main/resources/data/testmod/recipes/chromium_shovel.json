@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chromium_weapons",
+  "key": {
+    "#": {
+      "item": "testmod:chromium_ingot"
+    },
+    "X": {
+      "item": "testmod:reinforced_rod"
+    }
+  },
+  "pattern": [
+    "#",
+    "X",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "item": "testmod:chromium_shovel"
+  }
+}
