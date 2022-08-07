@@ -3,12 +3,9 @@ package net.lynxzz.testmod.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lynxzz.testmod.TestMod;
-import net.lynxzz.testmod.block.custom.LeanBlock;
-import net.lynxzz.testmod.block.custom.PerfectRegenBlock;
-import net.lynxzz.testmod.block.custom.RegenBlock;
+import net.lynxzz.testmod.block.custom.*;
 import net.lynxzz.testmod.item.ModItemGroup;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -64,6 +61,22 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_CRYSTALLINE_METHANOL_ORE = registerBlock("deepslate_crystalline_methanol_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block CHROMIUM_PRESSURE_PLATE = registerBlock("chromium_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.MOBS, FabricBlockSettings.of(Material.METAL)
+                    .strength(4.0f).requiresTool()), ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block CHROMIUM_BUTTON = registerBlock("chromium_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().noCollision()),
+            ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block CHROMIUM_WALL = registerBlock("chromium_wall",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+                ModItemGroup.LYNXZZS_ADDONS);
+
+    public static final Block CHROMIUM_FENCE_GATE = registerBlock("chromium_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()),
+                ModItemGroup.LYNXZZS_ADDONS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey){
         registerBlockItem(name, block, group, tooltipKey);

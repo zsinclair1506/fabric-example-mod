@@ -45,5 +45,9 @@
   "item.testmod.activated_technetium_helmet": "§5Activated Technetium Helmet§r",
   "item.testmod.activated_technetium_chestplate": "§5Activated Technetium Chestplate§r",
   "item.testmod.activated_technetium_leggings": "§5Activated Technetium Leggings§r",
-  "item.testmod.activated_technetium_boots": "§5Activated Technetium Boots§r"
+  "item.testmod.activated_technetium_boots": "§5Activated Technetium Boots§r",
+  "item.testmod.chromium_wall": "Chromium Wall",
+  "item.testmod.chromium_fence_gate": "Chromium Fence Gate",
+  "item.testmod.chromium_button": "Chromium Button",
+  "item.testmod.chromium_pressure_plate": "Chromium Pressure Plate"
 }

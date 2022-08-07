@@ -13,12 +13,7 @@ public class TestMod implements ModInitializer {
 
 	/*
 	* TODO:
-	* Lean Recipe
-	* Alloying
-	* Chromium Alloy Texture
-	* Chromium Alloy Tools
 	* Chromium Doors
-	* Scrap Alloying for now?
 	* Ore Generation
 	* Custom Bow
 	* Custom flower and crop
@@ -32,7 +27,7 @@ public class TestMod implements ModInitializer {
 	* Custom Fluids (Lean Fluid)
 	* New Ore for End Dimension
 	* 3D endgame armor for End Ore
-	* 
+	*
 	* Release 1.0.0 :D
 	 */
 
